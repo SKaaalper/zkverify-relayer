@@ -1,17 +1,15 @@
 #!/bin/bash
 
-# === COLORS ===
 YELLOW='\033[1;33m'
 GREEN='\033[1;32m'
 RED='\033[1;31m'
 NC='\033[0m'
 
-# === BANNER ===
 echo -e "${YELLOW}"
 cat << "BANNER"
 
-
-      Ang Tanong?                                                                                          _.--,-```-.
+                              Ang Tanong?                                                                                    
+                                                                                                           _.--,-```-.
        ,--.                                                      ,--.                                     /    /      '.  
    ,--/  /|                                ,--,              ,--/  /|   ,---,           ,---,.    ,---,  /  ../         ; 
 ,---,': / '         ,-.----.             ,--.'|           ,---,': / '  '  .' \        ,'  .'  \  '  .' \ \  ``\  .``-    '
@@ -27,7 +25,10 @@ cat << "BANNER"
 ;   |,'             `---'.|  |  ,     .-./---`-'          ;   |,'    `--''          |   | ,'   `--''         `-- -`, ;    
 '---'                 `---`   `--`---'                    '---'                     `----'                     '---`      
 
- Automated Circom + SnarkJS + zkVerify Groth16 Proof Generator ✨
+                                                                                              By: _Jheff
+
+        Automated Circom + SnarkJS + zkVerify Groth16 Proof Generator ✨
+
 BANNER
 echo -e "${NC}"
 
