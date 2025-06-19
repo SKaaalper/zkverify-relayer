@@ -30,7 +30,7 @@ The zkVerify Relayer API Key is not public and not included in the Swagger docum
 
 2. Open a support ticket:
   - Go to the `#ticket-support` channel and **create a new ticket**
-  - Request access to the *zkVerify Relayer API Key*
+  - Request access to the **zkVerify Relayer API Key**
 
 ⚠️ You won't be able to use the script without a valid API key.
 
