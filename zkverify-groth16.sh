@@ -27,7 +27,7 @@ cat << "BANNER"
 
                                                                                               By: _Jheff
 
-        Automated Circom + SnarkJS + zkVerify Groth16 Proof Generator ✨
+        Automated Circom + SnarkJS + zkVerify Groth16 Proof Generator!
 
 BANNER
 echo -e "${NC}"
