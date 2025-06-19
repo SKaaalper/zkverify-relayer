@@ -62,6 +62,8 @@ bash <(curl -s https://raw.githubusercontent.com/SKaaalper/zkverify-relayer/main
 
 ![image](https://github.com/user-attachments/assets/0b7fbe5c-ce3b-4b49-9353-e97918bd07ad)
 
+### 4. After you complete the deployment and submit the form, wait for the team to review it. You will receive your reward once the review is finished.
+
 **Want more airdrop grinds? Join my [Telegram](https://t.me/KatayanAirdropGnC)**
 
   <p align="center">
