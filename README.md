@@ -62,7 +62,44 @@ bash <(curl -s https://raw.githubusercontent.com/SKaaalper/zkverify-relayer/main
 
 ![image](https://github.com/user-attachments/assets/0b7fbe5c-ce3b-4b49-9353-e97918bd07ad)
 
-### 4. After you complete the deployment and submit the form, wait for the team to review it. You will receive your reward once the review is finished.
+### 📈 Volume-Based Rewards:
+
+| Total Proofs Submitted | Bonus Points |
+| ---------------------- | ------------ |
+| 100                    | 50           |
+| 250                    | 100          |
+| 500                    | 200          |
+| 1000+                  | 500 🚀       |
+
+⏫ **The more proofs you submit, the more bonus points you earn.**
+
+### 4. Deploy More Proof:
+```
+cd zkverify-relayer
+```
+```
+node index.js
+```
+
+### Provide Feedback on the Relayer:
+- Complete the Relayer [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSe-oZe2r5nSvDIuPQvVKSVSiPofUX9ZnhuuN46MFuI2m4X_2Q/viewform): `50 points`
+- Report an unknown bug (include sufficient details and screenshots): `+50 points`
+
+### How to Claim Points:
+- Fill out the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSe-oZe2r5nSvDIuPQvVKSVSiPofUX9ZnhuuN46MFuI2m4X_2Q/viewform)
+- Provide your `EVM wallet address` and the `Job ID` or `transaction hash` for the proof you submitted via the Relayer
+- The zkVerify team will verify your submission and assign points accordingly
+
+### Summary (TL;DR):
+✅ Submit different proof types = +20 each
+
+📈 **Submit a lot of proofs = bonus points (100 = +50, 1000+ = +500)**
+
+🔑 **Use API key (public or private)**
+
+📝 **Fill out the form with Job ID / wallet**
+
+💡 **Add feedback or bug reports for more points**
 
 **Want more airdrop grinds? Join my [Telegram](https://t.me/KatayanAirdropGnC)**
 
