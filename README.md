@@ -76,7 +76,7 @@ bash <(curl -s https://raw.githubusercontent.com/SKaaalper/zkverify-relayer/main
 ### 4. Deploy More Proof:
 ```
 cd zkverify-relayer
-bash zkverify-groth16.sh
+./zkverify-groth16.sh
 ```
 
 ### Provide Feedback on the Relayer:
