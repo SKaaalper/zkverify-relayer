@@ -1,0 +1,5 @@
+.env
+logs.txt
+node_modules/
+real-proof/
+data/
