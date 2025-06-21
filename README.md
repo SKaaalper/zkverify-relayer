@@ -50,7 +50,12 @@ The zkVerify Relayer API Key is not public and not included in the Swagger docum
 
 ### 2. One-Click Command to Run the Full Setup:
 ```
-bash <(curl -s https://raw.githubusercontent.com/SKaaalper/zkverify-relayer/main/zkverify-groth16.sh)
+cd ~ && \
+rm -rf zkverify-relayer && \
+git clone https://github.com/SKaaalper/zkverify-relayer.git && \
+cd zkverify-relayer && \
+chmod +x zkverify-groth16.sh && \
+./zkverify-groth16.sh
 ```
   - Paste your `API KEY` and wait to finish
   
