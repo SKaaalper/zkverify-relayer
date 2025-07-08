@@ -151,14 +151,25 @@ async function main() {
       return;
     }
 
-    while (true) {
-      const job = await axios.get(`${API_URL}/job-status/${process.env.API_KEY}/${res.data.jobId}`);
-      log(`🔁 Status`, job.data.status, CYAN);
-      if (job.data.status === "Finalized") {
-        log("✅ Finalized", job.data, GREEN);
+    const jobId = res.data.jobId;
+    let attempts = 0;
+    const maxRetries = 30; // 30 x 5s = 2.5 minutes
+
+    while (attempts < maxRetries) {
+      const job = await axios.get(`${API_URL}/job-status/${process.env.API_KEY}/${jobId}`);
+      log(`🔁 Status Check`, job.data, CYAN);
+
+      if (["Finalized", "Verified", "Success"].includes(job.data.status)) {
+        log("✅ Proof Completed", job.data, GREEN);
         break;
       }
+
+      attempts++;
       await new Promise(r => setTimeout(r, 5000));
+    }
+
+    if (attempts === maxRetries) {
+      log("⚠️ Timed out waiting for job to finalize", null, RED);
     }
   } catch (err) {
     log("❌ Error during submission", err.message, RED);
