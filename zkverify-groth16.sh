@@ -213,8 +213,8 @@ cd ~/zkverify-relayer || exit
 for ((i = 1; i <= loop_count; i++)); do
   echo -e "${YELLOW}➡️  Proof Submission #$i/$loop_count${NC}"
   node index.js
-  echo -e "${YELLOW}😴 cc3 is sleeping for 2 seconds...${NC}"
-  sleep 2
+  echo -e "${YELLOW}😴 Sleeping for 4 seconds before next submission...${NC}"
+  sleep 4
 done
 
 echo -e "${GREEN}🎉 Finished all $loop_count proof submissions!${NC}"
